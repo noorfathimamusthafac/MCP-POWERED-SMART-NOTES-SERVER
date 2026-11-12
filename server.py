@@ -4,10 +4,9 @@ from pathlib import Path
 from mcp.server.fastmcp import FastMCP
 
 
-# Create the MCP server
+
 mcp = FastMCP("Notes MCP Server")
 
-# Directory where all note files will be stored
 NOTES_DIR = Path(__file__).parent / "notes"
 
 # Make sure the notes directory exists
